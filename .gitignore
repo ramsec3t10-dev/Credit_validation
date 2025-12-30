@@ -1,5 +1,2 @@
 venv
-loan.csv
-cleaned_loan_db.csv
-chatgpt.csv
 .env
