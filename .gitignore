@@ -2,3 +2,5 @@ venv
 .env
 *.csv
 Credit_data/
+EDA/
+Artifacts/
