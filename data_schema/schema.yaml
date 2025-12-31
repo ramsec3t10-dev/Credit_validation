@@ -1,0 +1,101 @@
+numerical_columns:
+  loan_amnt: {}
+  int_rate: {}
+  installment: {}
+  annual_inc: {}
+  dti: {}
+  delinq_2yrs: {}
+  inq_last_6mths: {}
+  open_acc: {}
+  pub_rec: {}
+  revol_bal: {}
+  revol_util: {}
+  total_acc: {}
+  acc_now_delinq: {}
+  collections_12_mths_ex_med: {}
+  pub_rec_bankruptcies: {}
+  tax_liens: {}
+  issue_year: {}
+  credit_history_years: {}
+  emp_length: {}
+  annual_inc_missing: {}
+
+ordinal_categorical_columns:
+  grade:
+    allowed_values: ["A", "B", "C", "D", "E", "F", "G"]
+  sub_grade:
+    allowed_values:
+      - A1
+      - A2
+      - A3
+      - A4
+      - A5
+      - B1
+      - B2
+      - B3
+      - B4
+      - B5
+      - C1
+      - C2
+      - C3
+      - C4
+      - C5
+      - D1
+      - D2
+      - D3
+      - D4
+      - D5
+      - E1
+      - E2
+      - E3
+      - E4
+      - E5
+      - F1
+      - F2
+      - F3
+      - F4
+      - F5
+      - G1
+      - G2
+      - G3
+      - G4
+      - G5
+
+nominal_categorical_columns:
+  purpose:
+    allowed_values:
+      - debt_consolidation
+      - credit_card
+      - home_improvement
+      - major_purchase
+      - small_business
+      - car
+      - wedding
+      - medical
+      - moving
+      - vacation
+      - renewable_energy
+      - educational
+      - house
+      - other
+
+  home_ownership:
+    allowed_values: ["RENT", "OWN", "MORTGAGE", "OTHER","ANY","NONE"]
+
+  verification_status:
+    allowed_values:
+      - Verified
+      - Source Verified
+      - Not Verified
+
+  application_type:
+    allowed_values:
+      - Individual
+      - Joint App
+
+  initial_list_status:
+    allowed_values: ["w", "f"]
+
+target_column:
+  name: loan_status
+  allowed_values: [0, 1]

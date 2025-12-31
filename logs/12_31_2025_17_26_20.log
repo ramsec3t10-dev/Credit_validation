@@ -1,0 +1,21 @@
+[ 2025-12-31 17:26:22,969 ] 13 root - INFO - Data ingestion has started
+[ 2025-12-31 17:26:22,969 ] 16 root - INFO - DATAINGESTIONCONFIG created
+[ 2025-12-31 17:26:22,970 ] 16 root - INFO - Data ingestion is over
+[ 2025-12-31 17:27:25,153 ] 53 root - INFO - train and test sets created
+[ 2025-12-31 17:27:25,155 ] 56 root - INFO - Exporting train and test file path
+[ 2025-12-31 17:27:42,552 ] 58 root - INFO - Exported data to training set
+[ 2025-12-31 17:27:49,718 ] 60 root - INFO - Exported data to testing set
+[ 2025-12-31 17:27:50,795 ] 21 root - INFO - Initiate Data Validation
+[ 2025-12-31 17:27:55,805 ] 168 root - INFO - Running columns validation on TRAIN
+[ 2025-12-31 17:27:55,805 ] 53 root - INFO - All required columns are present
+[ 2025-12-31 17:27:55,806 ] 172 root - INFO - Running columns validation on TEST
+[ 2025-12-31 17:27:55,806 ] 53 root - INFO - All required columns are present
+[ 2025-12-31 17:27:55,806 ] 168 root - INFO - Running numerical validation on TRAIN
+[ 2025-12-31 17:27:55,807 ] 172 root - INFO - Running numerical validation on TEST
+[ 2025-12-31 17:27:55,809 ] 168 root - INFO - Running ordinal validation on TRAIN
+[ 2025-12-31 17:27:55,926 ] 172 root - INFO - Running ordinal validation on TEST
+[ 2025-12-31 17:27:55,976 ] 168 root - INFO - Running nominal validation on TRAIN
+[ 2025-12-31 17:27:56,429 ] 172 root - INFO - Running nominal validation on TEST
+[ 2025-12-31 17:27:56,620 ] 168 root - INFO - Running target validation on TRAIN
+[ 2025-12-31 17:27:56,765 ] 172 root - INFO - Running target validation on TEST
+[ 2025-12-31 17:28:20,409 ] 23 root - INFO - Data Validation completed

@@ -1,0 +1,10 @@
+[ 2025-12-31 16:54:00,604 ] 13 root - INFO - Data ingestion has started
+[ 2025-12-31 16:54:00,604 ] 16 root - INFO - DATAINGESTIONCONFIG created
+[ 2025-12-31 16:54:00,604 ] 16 root - INFO - Data ingestion is over
+[ 2025-12-31 16:54:36,025 ] 53 root - INFO - train and test sets created
+[ 2025-12-31 16:54:36,026 ] 56 root - INFO - Exporting train and test file path
+[ 2025-12-31 16:54:45,799 ] 58 root - INFO - Exported data to training set
+[ 2025-12-31 16:54:49,872 ] 60 root - INFO - Exported data to testing set
+[ 2025-12-31 16:54:50,553 ] 21 root - INFO - Initiate Data Validation
+[ 2025-12-31 16:54:53,417 ] 170 root - INFO - Running columns validation on TRAIN
+[ 2025-12-31 16:54:53,417 ] 55 root - ERROR - Unexpected columns: {'term'}

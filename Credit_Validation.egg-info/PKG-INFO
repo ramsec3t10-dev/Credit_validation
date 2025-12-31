@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: Credit_Validation
+Version: 0.0.1
+Author: Saint Ram
+Author-email: rams.ec3t10@gct.ac.in
+Requires-Dist: n
+Requires-Dist: u
+Requires-Dist: m
+Requires-Dist: p
+Requires-Dist: y
+Dynamic: author
+Dynamic: author-email
+Dynamic: requires-dist

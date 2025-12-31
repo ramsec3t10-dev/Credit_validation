@@ -39,4 +39,4 @@ class DataValidationConfig:
         self.valid_testing_file_path = os.path.join(self.valid_data_dir,tp.TEST_FILE_NAME)
         self.invalid_training_file_path = os.path.join(self.invalid_data_dir,tp.TRAIN_FILE_NAME)
         self.invalid_testing_file_path = os.path.join(self.invalid_data_dir,tp.TEST_FILE_NAME)
-        self.drift_file_path = os.path.join(self.data_validation_dir,tp.DATA_VALIDATION_DRIFT_REPORT_DIR,tp.DATA_VALIDATION_DRIFT_REPORT_FILE_NAME)
+        self.drift_report_file_path = os.path.join(self.data_validation_dir,tp.DATA_VALIDATION_DRIFT_REPORT_DIR,tp.DATA_VALIDATION_DRIFT_REPORT_FILE_NAME)

@@ -1,0 +1,18 @@
+[ 2025-12-31 17:04:48,303 ] 13 root - INFO - Data ingestion has started
+[ 2025-12-31 17:04:48,303 ] 16 root - INFO - DATAINGESTIONCONFIG created
+[ 2025-12-31 17:04:48,303 ] 16 root - INFO - Data ingestion is over
+[ 2025-12-31 17:05:50,927 ] 53 root - INFO - train and test sets created
+[ 2025-12-31 17:05:50,929 ] 56 root - INFO - Exporting train and test file path
+[ 2025-12-31 17:06:08,780 ] 58 root - INFO - Exported data to training set
+[ 2025-12-31 17:06:16,092 ] 60 root - INFO - Exported data to testing set
+[ 2025-12-31 17:06:17,316 ] 21 root - INFO - Initiate Data Validation
+[ 2025-12-31 17:06:22,432 ] 168 root - INFO - Running columns validation on TRAIN
+[ 2025-12-31 17:06:22,432 ] 53 root - INFO - All required columns are present
+[ 2025-12-31 17:06:22,432 ] 172 root - INFO - Running columns validation on TEST
+[ 2025-12-31 17:06:22,432 ] 53 root - INFO - All required columns are present
+[ 2025-12-31 17:06:22,432 ] 168 root - INFO - Running numerical validation on TRAIN
+[ 2025-12-31 17:06:22,434 ] 172 root - INFO - Running numerical validation on TEST
+[ 2025-12-31 17:06:22,435 ] 168 root - INFO - Running ordinal validation on TRAIN
+[ 2025-12-31 17:06:22,577 ] 172 root - INFO - Running ordinal validation on TEST
+[ 2025-12-31 17:06:22,630 ] 168 root - INFO - Running nominal validation on TRAIN
+[ 2025-12-31 17:06:22,803 ] 94 root - ERROR - Unexpected categories in home_ownership: {'ANY', 'NONE'}
